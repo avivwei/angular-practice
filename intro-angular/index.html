@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+<body ng-app="myApp">
+	<div ng-controller="testCtrl1">
+  		<input type="text" ng-model="txt"/>
+  		<button type="submit" value="Show" ng-click="func()">Submit</button>
+  		<p ng-repeat="text in what track by $index">{{text}}</p>
+	</div>
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script src="controler1.js" type="text/javascript"></script>
+	<script src="controler2.js" type="text/javascript"></script>
+</body>
+</html>
